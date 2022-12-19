@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
+import { BsSearch } from 'react-icons/bs';
 import { Form, Header } from './Searchbar.styled';
 
 export function Searchbar({ onSubmit }) {
@@ -18,6 +19,7 @@ export function Searchbar({ onSubmit }) {
         <Form onSubmit={handleFormSubmit}>
           <button type="submit">
             <span>Search</span>
+            <BsSearch />
           </button>
 
           <input

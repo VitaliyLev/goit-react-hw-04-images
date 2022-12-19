@@ -6,9 +6,9 @@ import { Item, Image } from './ImageGalleryItem.styled';
 export const ImageGalleryItem = ({ articles, onClick }) => {
   return (
     <>
-      {articles.map(({ previewURL, id, largeImageURL, tags }) => (
+      {articles.map(({ id, largeImageURL, tags, webformatURL }) => (
         <Item key={id} onClick={() => onClick(largeImageURL)}>
-          <Image src={previewURL} alt={tags} />
+          <Image src={webformatURL} alt={tags} />
         </Item>
       ))}
     </>

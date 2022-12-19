@@ -21,7 +21,21 @@ export function App() {
   const [showModal, setShowModal] = useState(false);
   const [imageModal, setImageModal] = useState(null);
 
+  //   const rest = async (q, p) => {
+  //   try {
+  //      return response = await axios.get(
+  //           `https://pixabay.com/api/?q=${q}&page=${p}&key=31278796-a3a5484ed91accb8b7bce1cf7&image_type=photo&orientation=horizontal&per_page=12`
+  //      );
+  //   } catch (e) {
+  //     console.log(e);
+  //   }
+  // }
+
   useEffect(() => {
+    //   rest(q, p).then(res => {
+
+    //   } ).catch()
+
     if (query === '') {
       return;
     }

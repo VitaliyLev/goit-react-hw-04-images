@@ -31,7 +31,7 @@ export const Form = styled.form`
     width: 38px;
     height: 38px;
     border: 0;
-    background-image: url('https://img.icons8.com/ios/512/search.png');
+    /* background-image: url('https://img.icons8.com/ios/512/search.png'); */
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
